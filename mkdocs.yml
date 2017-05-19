@@ -1,0 +1,70 @@
+# Project information
+site_name: 'Botlang'
+site_description: 'A scripting language for conversational chat bots'
+site_author: 'Mathias Schilling'
+site_url: 'https://botlang.org'
+
+# Repository
+repo_name: 'botlang'
+repo_url: 'https://github.com/botlang'
+
+# Copyright
+copyright: 'Copyright &copy; 2017 <br><a href="https://www.matchilling.com/">Mathias Schilling</a>'
+
+# Pages
+pages:
+- Home: 'index.md'
+- Documentation:
+    - 'api/pattern-response-model.md'
+    - 'api/comments.md'
+    - 'api/wild-cards.md'
+    - 'api/multiple-choice-matching.md'
+    - 'api/string-substitution.md'
+- About:
+    - 'Background': 'about.md'
+    - 'License': 'license.md'
+
+# Documentation and theme
+theme: 'material'
+
+# Options
+extra:
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  social:
+    - type: 'github'
+      link: 'https://github.com/matchilling'
+    - type: 'twitter'
+      link: 'https://twitter.com/matchilling'
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+# Google Analytics
+google_analytics:
+  - 'UA-99502081-1'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
