@@ -14,10 +14,23 @@ Alan Perlis
 
 ## Download
 
-Botlang Implementation for JavaScript (c.f. on [github.com](https://github.com/botlang/botlang-js)).
+### Interpreter
 
+#### JavaScript [[src](https://github.com/botlang/botlang-js)]
 ```sh
 $ npm install botlang
+```
+
+### Syntax highlighting
+
+#### Atom [[src](https://github.com/botlang/atom-language-botlang)]
+```sh
+$ apm install language-bot
+```
+
+#### Vim [[src](https://github.com/botlang/vim-language-botlang)]
+```sh
+$ git clone git@github.com:botlang/vim-language-botlang.git ~/.vim/bundle/vim-language-botlang
 ```
 
 ## News & Releases
