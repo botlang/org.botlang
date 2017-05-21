@@ -29,6 +29,7 @@ theme: 'material'
 
 # Options
 extra:
+  logo: 'images/botlang_logo_centered_1000x1000.png'
   palette:
     primary: 'indigo'
     accent: 'indigo'
