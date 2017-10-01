@@ -35,6 +35,10 @@ $ git clone git@github.com:botlang/vim-language-botlang.git ~/.vim/bundle/vim-la
 
 ## News & Releases
 
+### org.botlang.try [1.0.0](https://github.com/botlang/org.botlang.try) <small>Sep 7, 2017</small>
+
+* Released online REPL for the botlang language - [try.botlang.org](https://try.botlang.org/)
+
 ### botlang-js [0.8.0](https://github.com/botlang/botlang-js/releases/tag/0.8.0) <small>May 25, 2017</small>
 
 * Add help, version command for botlang cli
